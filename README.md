@@ -1,17 +1,17 @@
-## [Unreleased] Para rodar o script execute os seguintes passos.
+# Para rodar o script execute os seguintes passos.
+python -m venv venv 
 
-** python -m venv venv 
-# Linux
-** source venv/bin/activate
+## Linux
+source venv/bin/activate
 
-# Windowns
-** venv\scripts\activate.bat
+## Windowns
+venv\scripts\activate.bat
 
-# Para todos
-** pip install -r requirements.txt
+## Para todos
+pip install -r requirements.txt
 
-** python main.py
+python main.py
 
-## [Unreleased] Para gerar o executavel dele na sua plataforma windows, linux ou mac.
+# Para gerar o executavel dele na sua plataforma windows, linux ou mac.
 
 ** pyinstaller robo.py
